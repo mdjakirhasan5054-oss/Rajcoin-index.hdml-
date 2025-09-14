@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Game 1 - Court+Color+Number</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+<div class="game-wrap">
+  <h2>Game 1 - Court+Color+Number</h2>
+
+<div class="controls">
+  <label>Court:</label>
+  <select id="court">
+    <option value="Court A">Court A</option>
+    <option value="Court B">Court B</option>
+    <option value="Court C">Court C</option>
+  </select>
+
+  <label>Color:</label>
+  <select id="color">
+    <option value="Red">Red</option>
+    <option value="Green">Green</option>
+    <option value="Blue">Blue</option>
+  </select>
+
+  <label>Number:</label>
+  <select id="number">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+  </select>
+
+  <button onclick="playGame1()">Submit</button>
+</div>
+
+  <p id="result"></p>
+  <a href="index.html">⬅ Back</a>
+</div>
+</body>
+</html>
